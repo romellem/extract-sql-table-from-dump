@@ -1,0 +1,25 @@
+{
+    "name": "romellem/extract-sql-table-from-dump",
+    "description": "Given a complete MySQL dump file, extract all or some of the tables into separate SQL files.",
+    "type": "library",
+    "keywords": [
+        "SQL",
+        "MySQL"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Wade",
+            "email": "romellem.git@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Romellem\\ExtractSqlTableFromDump\\": "src"
+        }
+    }
+}
